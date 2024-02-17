@@ -1,60 +1,147 @@
-<<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Grocery List</title>
-</head>
-<body>
+<!DOCTYPE html> 
+<!-- File name and document purpose --> 
+<html lang = "en">   
+    <head>     
+        <title> Lists </title>
+        <meta charset = "utf-8" />     
+        <!--include external resources here like adsense, javascript, styles-->
+    </head>   
+    <body>   
+        <p>There are three types of lists</p>
+        <ol>
+            <li>Unordered List</li>
+            <li>Ordered List</li>
+            <li>Definition List</li>
+        </ol>
+        <p>Above is an ordered list. It's unordered version will be</p>
+        <ul>
+            <li>Unordered List</li>
+            <li>Ordered List</li>
+            <li>Definition List</li>
+        </ul>
+        <p>Definition list has title and data for each item.</p>
+        <dl>
+            <dt>Unordered list</dt>
+            <dd>Lists are marked by bullets.</dd>
+            <dt>Ordered list</dt>
+            <dd>Lists are marked by numbers.</dd>
+            <dt>Definition list</dt>
+            <dd>List items have title and data.</dd>    
+        </dl>
+        <hr/>
 
-<h1>Grocery List</h1>
+        <h1>List Exercises:</h1>
+        <p><b>1. Create a list of groceries. The primary list is of categories. The secondary lists are items in the categories.</b></p>
+        
+        <h1>Grocery List</h1>
 
-<ul>
-  <li><strong>Produce:</strong>
-    <ul>
-      <li>Apples</li>
-      <li>Bananas</li>
-      <li>Carrots</li>
-      <li>Spinach</li>
-    </ul>
-  </li>
-  
-  <li><strong>Dairy:</strong>
-    <ul>
-      <li>Milk</li>
-      <li>Cheese</li>
-      <li>Yogurt</li>
-      <li>Butter</li>
-    </ul>
-  </li>
-  
-  <li><strong>Meat:</strong>
-    <ul>
-      <li>Chicken</li>
-      <li>Beef</li>
-      <li>Pork</li>
-      <li>Fish</li>
-    </ul>
-  </li>
-  
-  <li><strong>Bakery:</strong>
-    <ul>
-      <li>Bread</li>
-      <li>Bagels</li>
-      <li>Croissants</li>
-      <li>Muffins</li>
-    </ul>
-  </li>
-  
-  <li><strong>Canned Goods:</strong>
-    <ul>
-      <li>Tomatoes</li>
-      <li>Beans</li>
-      <li>Tuna</li>
-      <li>Corn</li>
-    </ul>
-  </li>
-</ul>
+        <ol>
+            <h2><li value="1">Fruits</li></h2>
+        </ol>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Oranges</li>
+            <li>Grapes</li>
+        </ul>
 
-</body>
+        <ol>
+            <h2><li value="2">Vegetables</li></h2>
+        </ol>
+        <ul>
+            <li>Carrots</li>
+            <li>Spinach</li>
+            <li>Tomatoes</li>
+            <li>Broccoli</li>
+        </ul>
+
+        <ol>
+            <h2><li value="3">Dairy</li></h2>
+        </ol>
+        <ul>
+            <li>Milk</li>
+            <li>Cheese</li>
+            <li>Yogurt</li>
+            <li>Butter</li>
+        </ul>
+
+        <ol>
+            <h2><li value="4">Meat</li></h2>
+        </ol>
+        <ul>
+            <li>Chicken</li>
+            <li>Beef</li>
+            <li>Fish</li>
+            <li>Pork</li>
+            </ul>
+
+        <ol>
+            <h2><li value="5">Grains</li></h2>
+        </ol>
+        <ul>
+            <li>Bread</li>
+            <li>Rice</li>
+            <li>Pasta</li>
+            <li>Quinoa</li>
+        </ul>
+
+        <ol>
+            <h2><li value="6">Canned Goods</li></h2>
+        </ol>
+        <ul>
+            <li>Beans</li>
+            <li>Tomato Sauce</li>
+            <li>Tuna</li>
+            <li>Soup</li>
+        </ul>
+
+        <ol>
+            <h2><li value="7">Beverages</li></h2>
+        </ol>    
+        <ul>
+            <li>Water</li>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Orange Juice</li>
+        </ul>
+              
+        <ol>
+            <h2><li value="8">Snacks</li></h2>
+        </ol>
+        <ul>
+            <li>Chips</li>
+            <li>Nuts</li>
+            <li>Popcorn</li>
+            <li>Chocolate</li>
+        </ul> 
+        <hr/>
+
+        <p><b>2. Use definition list to create a list that defines p, sub, sup, code, pre, img, a tags.</b></p>
+
+        <h1>HTML Tag Definitions</h1>
+
+            <dl>
+                <dt><code>&lt;p&gt;</code></dt>
+                <dd>The <strong>paragraph</strong> tag is used to define and structure text as paragraphs.</dd>
+
+                <dt><code>&lt;sub&gt;</code></dt>
+                <dd>The <strong>subscript</strong> tag is used to represent subscript text, typically rendered lower and smaller than the surrounding text.</dd>
+
+                <dt><code>&lt;sup&gt;</code></dt>
+                <dd>The <strong>superscript</strong> tag is used to represent superscript text, typically rendered higher and smaller than the surrounding text.</dd>
+
+                <dt><code>&lt;code&gt;</code></dt>
+                <dd>The <strong>code</strong> tag is used to define a piece of computer code.</dd>
+
+                <dt><code>&lt;pre&gt;</code></dt>
+                <dd>The <strong>preformatted</strong> tag is used to preserve both spaces and line breaks within the enclosed text.</dd>
+
+                <dt><code>&lt;img&gt;</code></dt>
+                <dd>The <strong>image</strong> tag is used to embed images in an HTML document.</dd>
+
+                <dt><code>&lt;a&gt;</code></dt>
+                <dd>The <strong>anchor</strong> tag is used to create hyperlinks, allowing navigation to other web pages or resources.</dd>
+            </dl>
+        <hr/>
+    </body> 
 </html>
