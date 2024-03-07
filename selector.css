@@ -1,5 +1,20 @@
-h1 { color: red; }
-h2.blue { color: blue; }
+h1 { color: rgb(28, 5, 5); }
+h2.blue { color: rgb(15, 216, 75); }
 .gray { color: rgb(87, 82, 231); }
-#golden { color: goldenrod; }
-.container :nth-child(4n) { background: rgb(70, 171, 217); }
+#golden { color: rgb(218, 32, 178); }
+.container :nth-child(5n+1) { background: rgb(181, 13, 130); }
+
+ul :nth-child(2n+1) {
+    background: rgb(222, 154, 196);
+    margin: 1em;
+    color: rgb(155, 20, 32);
+    padding: 1em;
+    margin-top: 2em;
+}
+ul :nth-child(2n) {
+    background: rgb(161, 221, 10);
+    padding: 1em;
+    margin: 1em 1em 1em 0;
+    color: rgb(92, 9, 91);
+}
+    
