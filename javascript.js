@@ -42,14 +42,14 @@ let str2="world";  //double quotes
 let str3=`hello world`; // backtik 
 console.log(str3)
 
-let outcome=[[ 1,3,2,4,5,6],  // 3 dimenstional 
-            [4,2,1,5,3,6],
-            [1,6,5,2,4,3],
-            [4,3,1,2,6,5],
-            [6,5,3,8,2,1],
-            [4,5,6,1,2,3]]
-console.log(outcome[1][3]) //op as 5
-console.log(outcome[4][3]) //op as 8
+let outcome=[[ 1,3,2,4,5,6], //0   // 3 dimenstional 
+            [4,2,1,5,3,6],  //1
+            [1,6,5,2,4,3],  //2
+            [4,3,1,2,6,5],  //3 
+            [6,5,3,8,2,1],  //4
+            [4,5,6,1,2,3]]  //5    *// u should start from 0 , 1 ,2 , 3 counting 
+console.log(outcome[1][3]) //op as 5  hw? [1] represnt rows and [3]is column ie 1st row in 3rd column 5 is ans 
+console.log(outcome[4][3]) //op as 8  [4] row 3rd column is 8 
 
 let D3=[
     [ 
