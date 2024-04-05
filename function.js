@@ -5,7 +5,7 @@
 // }
 
 let area = (length=1, width=1) => {
-    return length *width;
+    return length * width;
 }
 
 console.log("area =", area(2))
@@ -16,7 +16,7 @@ console.log("area =", area(2))
     // for(let i=0; i<a.length; i++) {
        //  sum=sum+a[i];
    // }
-    return sum;
+    //return sum;
 //}
 
 let sumArray=(a) => {
@@ -75,3 +75,14 @@ function getDigits(n) {
 // Example usage:
 const number = 12345;
 console.log(getDigits(number)); // Output: [1, 2, 3, 4, 5]
+
+function digits(n){
+      let StrN=''+n; //convert to string 
+      let arr=[]; //to store the digits 
+      for(let i=0; i<strN.length; i++)
+      {
+        arr.push(number(strN[i])) // put digit one by one, first convert to number 
+      }
+      return arr;
+}
+console.log(digits(12345))
