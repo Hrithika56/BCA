@@ -22,7 +22,7 @@ console.log("area =", area(2))
 let sumArray=(a) => {
     let sum=0;
     for(let i=0; i<a.length; i++) {
-        sum=sum+aq[i];
+        sum=sum+a[i];
     }
     return sum;
 }
@@ -48,7 +48,7 @@ console.log(reverse("dayananda "))
 function palindrome(n) {
     let strN=''+n;
     let revN= reverse(strN);
-    return StrN==revN;
+    return strN==revN;
 }
 
 console.log(palindrome(12321))
@@ -77,11 +77,11 @@ const number = 12345;
 console.log(getDigits(number)); // Output: [1, 2, 3, 4, 5]
 
 function digits(n){
-      let StrN=''+n; //convert to string 
+      let strN=''+n; //convert to string 
       let arr=[]; //to store the digits 
       for(let i=0; i<strN.length; i++)
       {
-        arr.push(number(strN[i])) // put digit one by one, first convert to number 
+        arr.push(Number(strN[i])) // put digit one by one, first convert to number 
       }
       return arr;
 }
