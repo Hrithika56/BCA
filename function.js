@@ -55,4 +55,4 @@ console.log(palindrome(12321))
 
 // create a function that takes number n as input  and  output the array of  list of digits of the number 
 
-
+//a=[]; a.push(5); a=[5]; a.push(1); a=[5,1]
