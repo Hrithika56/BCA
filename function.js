@@ -56,3 +56,22 @@ console.log(palindrome(12321))
 // create a function that takes number n as input  and  output the array of  list of digits of the number 
 
 //a=[]; a.push(5); a=[5]; a.push(1); a=[5,1]
+
+function getDigits(n) {
+    const digits = [];
+    
+    // Convert number to string to easily access individual digits
+    const numAsString = n.toString();
+    
+    // Iterate over each character (digit) in the string
+    for (let i = 0; i < numAsString.length; i++) {
+        // Convert each character back to a number and push it to the array
+        digits.push(parseInt(numAsString[i]));
+    }
+    
+    return digits;
+}
+
+// Example usage:
+const number = 12345;
+console.log(getDigits(number)); // Output: [1, 2, 3, 4, 5]
