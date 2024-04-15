@@ -9,7 +9,7 @@ const getMyName = async () => {
         return;
     }
     let name = await res.text();
-    nameElement.textContent = name;
+    nameElements.textContent = name;
 }
 const postsurname = async () => {
     let res = await fetch('http://127.0.0.1:3000/', {
@@ -27,5 +27,5 @@ const postsurname = async () => {
         return;
     }
     let { surname } = await res.json();
-    surnameElement.textContent = surname;
+    surnameElements.textContent = surname;
 }
