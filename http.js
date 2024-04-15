@@ -1,31 +1,29 @@
-let nameElements = document.querySelector('.name');
-let surnameElements = document.querySelector('.surname')
+let nameElement = document.querySelector('.name');
+let surnameElement = document.querySelector('.surname')
 
 const getMyName = async () => {
-    let res = await fetch('http://127.0.0.1:3000')
+    let res = await fetch('http://127.0.0.1:3000/')
     console.log(res);
-    if (!res.ok) {
-        alert('failed to get name');
+    if(!res.ok) {
+        alert('Failed to get name');
         return;
     }
     let name = await res.text();
-    nameElements.textContent = name;
+    nameElement.textContent = name;
 }
-const postsurname = async () => {
+const postSurname = async () => {
     let res = await fetch('http://127.0.0.1:3000/', {
         method: 'POST',
-        header: {
-            'content-Type': 'application/json'
+        headers: {
+            'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ surname: 'kumar' })
+        body: JSON.stringify({surname: 'Kumar'})
     })
-
-
     console.log(res);
-    if (!res.ok) {
-        alert('failed to post Surname');
+    if(!res.ok) {
+        alert('Failed to post surname');
         return;
     }
     let { surname } = await res.json();
-    surnameElements.textContent = surname;
+    surnameElement.textContent = surname;
 }
