@@ -33,7 +33,7 @@ const server = createServer((req, res) => {
       res.setHeader('Access-Control-Allow-Origin', "*");
 
 
-      res.end(JSON.stringify({surname: "KUMAR"}));
+      res.end(JSON.stringify({surname: "HRITHIKA"}));
       // console.log(res)
     }
   }
