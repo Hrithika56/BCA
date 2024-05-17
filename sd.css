@@ -1,4 +1,4 @@
- /** {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,7 +24,7 @@ html, body{
     align-items: center;
     align-items: solid red;
     justify-content: center;
-} */
+} 
 
 * {
     margin: 0;
