@@ -85,4 +85,4 @@ function digits(n){
       }
       return arr;
 }
-console.log(digits(12345))
+console.log(digits(12345)) 
