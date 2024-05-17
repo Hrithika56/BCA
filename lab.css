@@ -1,4 +1,4 @@
-/*.problem1 span {
+.problem1 span {
     border: 2px solid red;
     padding-left: 40px;
     padding-bottom: 30px;
@@ -53,7 +53,7 @@
     left: calc( 50% - 50px);
     top: 85%;
 
-} */
+} 
 
 * {
     margin: 0;
