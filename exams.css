@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    border: 2px solid rgb(11, 63, 205);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 0%;
+    border: 2px solid rgb(15, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 24px;
+}
