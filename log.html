@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        .container{
+            border: 1px solid rgb(166, 0, 0);
+            height: 200px;
+            width: 200px;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>LOG IN</h1>
+    <form id>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+        </div>
+        <div>
+            <button onclick="submitForm()">Login</button>
+        </div>
+    </form>
+    </div>
+    <script src="loginn.js"></script>
+    <script src="serverr.mjs"></script>
+</body>
+</html
