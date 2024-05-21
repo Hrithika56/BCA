@@ -1,4 +1,3 @@
-
 let nameElement = document.querySelector('.name');
 let surnameElement = document.querySelector('.surname')
 let surnameInput = document.querySelector('#surnameInput');
