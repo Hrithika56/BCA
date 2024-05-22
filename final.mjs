@@ -1,4 +1,4 @@
-mport { createServer } from 'node:http';
+import { createServer } from 'node:http';
 import fs from 'node:fs/promises';
 
 const writeToFile = async (data) => {
@@ -42,9 +42,9 @@ const server = createServer(async (req, res) => {
                     console.log('Name...', name);
                     console.log('Email...', email);
                     console.log('Message...', message);
-                    await writeToFile(Name: ${name}\n);
-                    await writeToFile(Email: ${email}\n);
-                    await writeToFile(Message: ${message}\n);
+                    await writeToFile(`Name: ${name}\n`);
+                    await writeToFile(`Email: ${email}\n`);
+                    await writeToFile(`Message: ${message}\n`);
                     let surname = 'Kumar';
                     res.statusCode = 200;
                     res.setHeader('Content-Type', 'application/json');
@@ -61,5 +61,5 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(port, hostname, () => {
-    console.log(Server running at http://${hostname}:${port}/);
+    console.log(`Server running at http://${hostname}:${port}/`);
 });
