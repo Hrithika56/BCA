@@ -5,8 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
     <link rel="stylesheet" href="final.css">
+    <style>
+        .container{
+            border: 1px solid rgb(166, 0, 0);
+            height: 300px;
+            width: 300px;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    </style>
+
+
 </head>
 <body>
+    <div class="container">
     <h1>FEEDBACK</h1>
     <label for="name">NAME
         <input id="name" type="text" name="name" value="" placeholder="Enter name" />
@@ -20,5 +36,6 @@
     <button onclick="logIn()">Submit</button>
     <p class="welcome"></p>
     <script src="final.js"></script>
+    </div>
 </body>
 </html>
